@@ -2,7 +2,8 @@
 ## Description
 
 write and read to IS42S32800G(SDRAM) using FMC(flexible memory controller)
-address of IS42S32800G is 0xD000 0000 ~ 0xD1FF FFFF
+
+address: 0xD000 0000 ~ 0xD1FF FFFF(32MB)
 
 ## Hardware
 STM32H747I-DISCO
