@@ -1,0 +1,14 @@
+../Core/Src/main.c:78:5:main	32	static,ignoring_inline_asm
+../Core/Src/main.c:171:6:SystemClock_Config	120	static
+../Core/Src/main.c:292:9:IS42S32800G_Init	24	static
+../Core/Src/main.c:330:9:IS42S32800G_ClockEnable	16	static
+../Core/Src/main.c:354:9:IS42S32800G_Precharge	16	static
+../Core/Src/main.c:378:9:IS42S32800G_ModeRegConfig	24	static
+../Core/Src/main.c:412:9:IS42S32800G_TimingConfig	16	static
+../Core/Src/main.c:433:9:IS42S32800G_RefreshMode	24	static
+../Core/Src/main.c:457:9:IS42S32800G_RefreshRate	16	static
+../Core/Src/main.c:476:9:IS42S32800G_EnterPowerMode	16	static
+../Core/Src/main.c:500:9:IS42S32800G_ExitPowerMode	16	static
+../Core/Src/main.c:524:9:IS42S32800G_Sendcmd	16	static
+../Core/Src/main.c:549:16:IS42S32800G_Delay	24	static
+../Core/Src/main.c:582:6:Error_Handler	4	static,ignoring_inline_asm
