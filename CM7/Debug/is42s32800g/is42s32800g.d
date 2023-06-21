@@ -1,4 +1,6 @@
-Core/Src/fmc.o: ../Core/Src/fmc.c ../Core/Inc/fmc.h ../Core/Inc/main.h \
+is42s32800g/is42s32800g.o: ../is42s32800g/is42s32800g.c \
+ ../is42s32800g/is42s32800g.h ../is42s32800g/is42s32800g_conf.h \
+ ../Core/Inc/fmc.h ../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -28,8 +30,9 @@ Core/Src/fmc.o: ../Core/Src/fmc.c ../Core/Inc/fmc.h ../Core/Inc/main.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sdram.h \
- ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h \
- ../is42s32800g/is42s32800g.h ../is42s32800g/is42s32800g_conf.h
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h
+../is42s32800g/is42s32800g.h:
+../is42s32800g/is42s32800g_conf.h:
 ../Core/Inc/fmc.h:
 ../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
@@ -62,5 +65,3 @@ Core/Src/fmc.o: ../Core/Src/fmc.c ../Core/Inc/fmc.h ../Core/Inc/main.h \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sdram.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_fmc.h:
-../is42s32800g/is42s32800g.h:
-../is42s32800g/is42s32800g_conf.h:

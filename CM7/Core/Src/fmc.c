@@ -22,7 +22,7 @@
 #include "fmc.h"
 
 /* USER CODE BEGIN 0 */
-#include "main.h"
+#include "is42s32800g.h"
 /* USER CODE END 0 */
 
 SDRAM_HandleTypeDef hsdram1;

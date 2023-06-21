@@ -27,3 +27,4 @@
 "./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim.o"
 "./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim_ex.o"
 "./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_ll_fmc.o"
+"./is42s32800g/is42s32800g.o"
